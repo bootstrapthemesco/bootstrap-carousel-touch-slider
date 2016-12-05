@@ -11,15 +11,17 @@ normally, as described in the [official Bootstrap documentation](http://getboots
 
 ```html
 <!--css Add this in header-->
-
+<head>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="all">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
 
+<!-- Bootstrap bootstrap-touch-slider Slider Main Style Sheet -->
+<link href="bootstrap-touch-slider.css" rel="stylesheet" media="all">
+</head>
 
 
-
-
+<body>
         
 
 <!--Slide effect: slide, fade 
@@ -43,6 +45,8 @@ Add animation in text: https://daneden.github.io/animate.css/
 <script type="text/javascript">
     $('#bootstrap-touch-slider').bsTouchSlider();
 </script>
+
+</body>
 ```
 
 
@@ -53,3 +57,5 @@ Inititalization: No option available just add this.
 ```
 
 
+
+ Credits: Bootstrap, jQuery, TouchSwipe, Animate.css, FontAwesome
