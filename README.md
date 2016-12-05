@@ -1,4 +1,4 @@
-Bootstrap Carousel Touch Slider
+Bootstrap Carousel Touch Slider with slide text Animation
 ========================
 
 Adding Touch behavior to Bootstrap's Carousel and add animation in text slide.
